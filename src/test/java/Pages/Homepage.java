@@ -1,5 +1,6 @@
 package Pages;
 
+import Utils.Helper;
 import org.openqa.selenium.By;
 
 public class Homepage extends Basepage {
@@ -24,6 +25,12 @@ public class Homepage extends Basepage {
 
     public void clickSignInButton() {
         clickThis(signInButton);
+    }
+
+    public void login(String user, String pass) {
+        enterUsername(user);
+        enterPassword(pass);
+        clickSignInButton();
     }
 
 }

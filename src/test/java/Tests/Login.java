@@ -3,6 +3,7 @@ package Tests;
 import Driver.Web;
 import Pages.Homepage;
 import Pages.Welcomepage;
+import Utils.Helper;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -25,18 +26,18 @@ public class Login extends Web {
         // 2
         hp.clickSignInOnHeader();
         // 3
-        hp.enterUsername("dt@schl.com");
-        hp.enterPassword("passw0rd");
-        // 4
-        hp.clickSignInButton();
+        hp.login("dt@schl.com", "passw0rd");
         // 5
         Assert.assertTrue(wp.isHiDisplayed(), "Hi message is not displayed");
 
-
-
-
     }
 
+
+    @Test(description = "Testcase - 2")
+    public void testcase2() {
+        System.out.println("Testcase 2");
+
+    }
 
 
 
