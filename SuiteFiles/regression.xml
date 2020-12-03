@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook Regression Suite" parallel="false">
+
+    <parameter name="url" value="https://www.facebook.com/"></parameter>
+    <parameter name="browser" value="${browserName}"></parameter>
+    
+    <test name="Facebook Sign up">
+        <classes>
+            <class name="Tests.SignUp"></class>
+        </classes>
+    </test>
+    
+</suite>

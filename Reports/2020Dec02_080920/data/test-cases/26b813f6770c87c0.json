@@ -1,0 +1,100 @@
+{
+  "uid" : "26b813f6770c87c0",
+  "name" : "Sign Up - 1",
+  "fullName" : "Tests.SignUp.signUp1",
+  "historyId" : "74ce28530700f415021bb0756ea1dd39",
+  "time" : {
+    "start" : 1606961348782,
+    "stop" : 1606961348783,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initDriver",
+    "time" : {
+      "start" : 1606961341999,
+      "stop" : 1606961348777,
+      "duration" : 6778
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1606961348785,
+      "stop" : 1606961348992,
+      "duration" : 207
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.SignUp"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.SignUp"
+  }, {
+    "name" : "testMethod",
+    "value" : "signUp1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Scholastic Login Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Facebook Sign up"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.SignUp"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "52002@Deepaks-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  }, {
+    "name" : "url",
+    "value" : "https://clubs3qa1.scholastic.com/"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26b813f6770c87c0.json",
+  "parameterValues" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+}

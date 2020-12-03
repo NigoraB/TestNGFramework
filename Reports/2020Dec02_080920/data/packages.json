@@ -1,0 +1,69 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Tests",
+    "children" : [ {
+      "name" : "Login",
+      "children" : [ {
+        "name" : "testcase2",
+        "uid" : "bdab265ae33cd77",
+        "parentUid" : "8dfc412dd32eb02395212fc39fa0ff9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606961315867,
+          "stop" : 1606961315927,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+      }, {
+        "name" : "userCanLoginUsingValidCredentials",
+        "uid" : "b05f84f6d3d2fd08",
+        "parentUid" : "8dfc412dd32eb02395212fc39fa0ff9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606961324975,
+          "stop" : 1606961341543,
+          "duration" : 16568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+      } ],
+      "uid" : "8dfc412dd32eb02395212fc39fa0ff9a"
+    }, {
+      "name" : "SignUp",
+      "children" : [ {
+        "name" : "signUp1",
+        "uid" : "26b813f6770c87c0",
+        "parentUid" : "e35b2fd084f3887c157e65bc7893c8f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606961348782,
+          "stop" : 1606961348783,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+      }, {
+        "name" : "signUp2",
+        "uid" : "7e42ee7e97de3512",
+        "parentUid" : "e35b2fd084f3887c157e65bc7893c8f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606961356551,
+          "stop" : 1606961356552,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+      } ],
+      "uid" : "e35b2fd084f3887c157e65bc7893c8f4"
+    } ],
+    "uid" : "fc39173c9dc08e281c680147b63fcad9"
+  } ]
+}

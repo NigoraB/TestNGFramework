@@ -1,0 +1,77 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Scholastic Login Suite",
+    "children" : [ {
+      "name" : "Facebook Login",
+      "children" : [ {
+        "name" : "Tests.Login",
+        "children" : [ {
+          "name" : "Testcase - 2",
+          "uid" : "d00341ab7cd70817",
+          "parentUid" : "e00c0f2201e6d17b6454208c33afdbc4",
+          "status" : "failed",
+          "time" : {
+            "start" : 1606961521831,
+            "stop" : 1606961521888,
+            "duration" : 57
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+        }, {
+          "name" : "User can login with valid credentials",
+          "uid" : "20b9f9990f7d5e23",
+          "parentUid" : "e00c0f2201e6d17b6454208c33afdbc4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1606961535024,
+            "stop" : 1606961545113,
+            "duration" : 10089
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+        } ],
+        "uid" : "e00c0f2201e6d17b6454208c33afdbc4"
+      } ],
+      "uid" : "0d1021b30913a25740b324c58b8db5b0"
+    }, {
+      "name" : "Facebook Sign up",
+      "children" : [ {
+        "name" : "Tests.SignUp",
+        "children" : [ {
+          "name" : "Sign Up - 1",
+          "uid" : "1f624133b1828b23",
+          "parentUid" : "4e87859ef19de225b2e341ec0ac85825",
+          "status" : "passed",
+          "time" : {
+            "start" : 1606961553567,
+            "stop" : 1606961553569,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+        }, {
+          "name" : "Sign up Testcase - 2",
+          "uid" : "eb1c5f4fc7bd1836",
+          "parentUid" : "4e87859ef19de225b2e341ec0ac85825",
+          "status" : "passed",
+          "time" : {
+            "start" : 1606961561565,
+            "stop" : 1606961561565,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+        } ],
+        "uid" : "4e87859ef19de225b2e341ec0ac85825"
+      } ],
+      "uid" : "74f6292ca7a455329e2c9fabd54c88ed"
+    } ],
+    "uid" : "f37d33ba198acbbb30a0e38f1492d057"
+  } ]
+}

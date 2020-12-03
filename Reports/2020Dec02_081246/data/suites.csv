@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Dec 02 20:12:15 CST 2020","Wed Dec 02 20:12:25 CST 2020","10089","Scholastic Login Suite","Facebook Login","Tests.Login","Tests.Login","userCanLoginUsingValidCredentials","User can login with valid credentials",""
+"passed","Wed Dec 02 20:12:41 CST 2020","Wed Dec 02 20:12:41 CST 2020","0","Scholastic Login Suite","Facebook Sign up","Tests.SignUp","Tests.SignUp","signUp2","Sign up Testcase - 2",""
+"passed","Wed Dec 02 20:12:33 CST 2020","Wed Dec 02 20:12:33 CST 2020","2","Scholastic Login Suite","Facebook Sign up","Tests.SignUp","Tests.SignUp","signUp1","Sign Up - 1",""
+"failed","Wed Dec 02 20:12:01 CST 2020","Wed Dec 02 20:12:01 CST 2020","57","Scholastic Login Suite","Facebook Login","Tests.Login","Tests.Login","testcase2","Testcase - 2",""

@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Testcase - 2",
+    "uid" : "bdab265ae33cd77",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606961315867,
+      "stop" : 1606961315927,
+      "duration" : 60
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+  }, {
+    "name" : "User can login with valid credentials",
+    "uid" : "b05f84f6d3d2fd08",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606961324975,
+      "stop" : 1606961341543,
+      "duration" : 16568
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+  }, {
+    "name" : "Sign Up - 1",
+    "uid" : "26b813f6770c87c0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606961348782,
+      "stop" : 1606961348783,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+  }, {
+    "name" : "Sign up Testcase - 2",
+    "uid" : "7e42ee7e97de3512",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606961356551,
+      "stop" : 1606961356552,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+  } ]
+}

@@ -1,0 +1,41 @@
+[ {
+  "uid" : "26b813f6770c87c0",
+  "name" : "Sign Up - 1",
+  "time" : {
+    "start" : 1606961348782,
+    "stop" : 1606961348783,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdab265ae33cd77",
+  "name" : "Testcase - 2",
+  "time" : {
+    "start" : 1606961315867,
+    "stop" : 1606961315927,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b05f84f6d3d2fd08",
+  "name" : "User can login with valid credentials",
+  "time" : {
+    "start" : 1606961324975,
+    "stop" : 1606961341543,
+    "duration" : 16568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e42ee7e97de3512",
+  "name" : "Sign up Testcase - 2",
+  "time" : {
+    "start" : 1606961356551,
+    "stop" : 1606961356552,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

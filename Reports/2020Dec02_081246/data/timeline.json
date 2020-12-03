@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Deepaks-MBP.attlocal.net",
+    "children" : [ {
+      "name" : "52228@Deepaks-MBP.attlocal.net.main(1)",
+      "children" : [ {
+        "name" : "Testcase - 2",
+        "uid" : "d00341ab7cd70817",
+        "parentUid" : "d9f8608d75139308dff6b49ab0ff5d24",
+        "status" : "failed",
+        "time" : {
+          "start" : 1606961521831,
+          "stop" : 1606961521888,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+      }, {
+        "name" : "Sign up Testcase - 2",
+        "uid" : "eb1c5f4fc7bd1836",
+        "parentUid" : "d9f8608d75139308dff6b49ab0ff5d24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606961561565,
+          "stop" : 1606961561565,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+      }, {
+        "name" : "Sign Up - 1",
+        "uid" : "1f624133b1828b23",
+        "parentUid" : "d9f8608d75139308dff6b49ab0ff5d24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606961553567,
+          "stop" : 1606961553569,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+      }, {
+        "name" : "User can login with valid credentials",
+        "uid" : "20b9f9990f7d5e23",
+        "parentUid" : "d9f8608d75139308dff6b49ab0ff5d24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606961535024,
+          "stop" : 1606961545113,
+          "duration" : 10089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://clubs3qa1.scholastic.com/" ]
+      } ],
+      "uid" : "d9f8608d75139308dff6b49ab0ff5d24"
+    } ],
+    "uid" : "28378d6a75f781fd02c74b29ed40e285"
+  } ]
+}
