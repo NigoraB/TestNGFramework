@@ -36,6 +36,7 @@ public class Login extends Web {
     @Test(description = "Testcase - 2")
     public void testcase2() {
         System.out.println("Testcase 2");
+        Assert.fail();
 
     }
 

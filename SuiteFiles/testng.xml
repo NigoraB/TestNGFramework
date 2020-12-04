@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Scholastic Login Suite" parallel="true" thread-count="2">
-    
+<suite name="Scholastic Login Suite" parallel="false">
+
+    <parameter name="url" value="https://clubs3qa1.scholastic.com/"></parameter>
+    <parameter name="browser" value="${browserName}"></parameter>
+
     <test name="Facebook Login">
         <classes>
             <class name="Tests.Login"></class>
