@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Facebook Regression Suite" parallel="false">
+<suite name="Scholastic Login Suite" parallel="false">
 
-    <parameter name="url" value="https://www.facebook.com/"></parameter>
+    <parameter name="url" value="https://clubs3qa1.scholastic.com/home"></parameter>
     <parameter name="browser" value="${browserName}"></parameter>
     
-    <test name="Facebook Sign up">
+    <test name="Scholastic Login">
         <classes>
-            <class name="Tests.SignUp"></class>
+            <class name="Tests.Login"></class>
         </classes>
     </test>
     
